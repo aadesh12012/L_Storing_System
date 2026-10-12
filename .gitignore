@@ -1,0 +1,21 @@
+
+.postgres_data/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+target/
+dist/
+build/
+
+# Local databases, caches, and logs
+dump.rdb
+*.log
+
+# IDE settings
+.idea/
+.vscode/
